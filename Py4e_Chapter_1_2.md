@@ -36,3 +36,22 @@ Welcome Chuck
 * input()는 사용자가 입력값을 넣을때까지 기다리는 함수
 
 
+### 3. [실습] 
+```
+nzt = input('Enter your name: ')
+print("Hello",nzt)
+```
+
+* command + k : 터미널 창 클리어
+
+```
+xh = input("Enter Hours: ")
+xr = input("Enter Rate: ")
+xp = float(xh) * float(xr)
+print("Pay:",xp)
+```
+
+line 3에서 float()를 하지 않으면 xh, xr값이 숫자로 넣었다고 하더라도 기본으로 문자열(String)로 입력되기 때문에
+숫자로 변경해줘야함.
+print("Pay:",xp)기본 
+print("Pay:",xp)
